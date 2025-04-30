@@ -142,6 +142,7 @@ plt.ylabel('Loss')
 plt.grid(True)
 plt.legend()
 
+
 # 테스트 정확도 그래프화
 plt.subplot(1,2,2)
 plt.plot(test_accuracy6, label='Test Accuracy', color='green')
