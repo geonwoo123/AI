@@ -62,7 +62,8 @@ def eval(model, test_loader):
     pred_labels = np.array(pred_labels)
     pred_labels = pred_labels.argmax(axis=1)
     acc = sum(real_labels==pred_labels)/len(real_labels)*100
-    return acc                         #모델을 평가 모드로 설정하고,  실제 값과 예측값 비교하여 정확도를 반환한다.
+    
+    return acc                      #모델을 평가 모드로 설정하고,  실제 값과 예측값 비교하여 정확도를 반환한다.
 
 #---------------------------------------------------------------------------------------------------
 
