@@ -138,7 +138,7 @@ plt.ylabel('Loss')
 plt.grid(True)
 plt.legend()
 
-# 테스트 정확도 시각화
+#  테스트 정확도 시각화
 plt.subplot(1,2,2)
 plt.plot(test_accuracy1, label='Test Accuracy', color='green')
 plt.title('Test Accuracy')
